@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="punjablabModelStoreContainer" CdmEntityContainer="punjablabEntities2">
+    <EntitySetMapping Name="reports">
+      <EntityTypeMapping TypeName="punjablabModel.report">
+        <MappingFragment StoreEntitySet="report">
+          <ScalarProperty Name="AnyOther" ColumnName="AnyOther" />
+          <ScalarProperty Name="PusCell" ColumnName="PusCell" />
+          <ScalarProperty Name="Dead" ColumnName="Dead" />
+          <ScalarProperty Name="SluggishSperms" ColumnName="SluggishSperms" />
+          <ScalarProperty Name="ActiveSperms" ColumnName="ActiveSperms" />
+          <ScalarProperty Name="SpermCount" ColumnName="SpermCount" />
+          <ScalarProperty Name="Viscosity" ColumnName="Viscosity" />
+          <ScalarProperty Name="Colour" ColumnName="Colour" />
+          <ScalarProperty Name="Volume" ColumnName="Volume" />
+          <ScalarProperty Name="Oxalate" ColumnName="Oxalate" />
+          <ScalarProperty Name="EpithelialCell" ColumnName="EpithelialCell" />
+          <ScalarProperty Name="UricAcids" ColumnName="UricAcids" />
+          <ScalarProperty Name="R_B_C" ColumnName="R.B.C" />
+          <ScalarProperty Name="PusCells" ColumnName="PusCells" />
+          <ScalarProperty Name="Albumin" ColumnName="Albumin" />
+          <ScalarProperty Name="UrineSugar" ColumnName="UrineSugar" />
+          <ScalarProperty Name="BilePigment" ColumnName="BilePigment" />
+          <ScalarProperty Name="BileSalt" ColumnName="BileSalt" />
+          <ScalarProperty Name="Globulin" ColumnName="Globulin" />
+          <ScalarProperty Name="Albumins" ColumnName="Albumins" />
+          <ScalarProperty Name="Protein" ColumnName="Protein" />
+          <ScalarProperty Name="SerumAlkalinePhosphatase" ColumnName="SerumAlkalinePhosphatase" />
+          <ScalarProperty Name="SGOT" ColumnName="SGOT" />
+          <ScalarProperty Name="SGPT" ColumnName="SGPT" />
+          <ScalarProperty Name="InDirect" ColumnName="InDirect" />
+          <ScalarProperty Name="Direct" ColumnName="Direct" />
+          <ScalarProperty Name="SerumBilirubin" ColumnName="SerumBilirubin" />
+          <ScalarProperty Name="V_L_D_L" ColumnName="V.L.D.L" />
+          <ScalarProperty Name="L_D_L" ColumnName="L.D.L" />
+          <ScalarProperty Name="Triglycerides" ColumnName="Triglycerides" />
+          <ScalarProperty Name="HDLCholesterol" ColumnName="HDLCholesterol" />
+          <ScalarProperty Name="BloodCholesterol" ColumnName="BloodCholesterol" />
+          <ScalarProperty Name="UricAcid" ColumnName="UricAcid" />
+          <ScalarProperty Name="SerumCreatinine" ColumnName="SerumCreatinine" />
+          <ScalarProperty Name="BloodUrea" ColumnName="BloodUrea" />
+          <ScalarProperty Name="BloodSugarPP" ColumnName="BloodSugarPP" />
+          <ScalarProperty Name="BloodSugarR" ColumnName="BloodSugarR" />
+          <ScalarProperty Name="BloodSugarFasting" ColumnName="BloodSugarFasting" />
+          <ScalarProperty Name="bh1840" ColumnName="bh1840" />
+          <ScalarProperty Name="bh1320" ColumnName="bh1320" />
+          <ScalarProperty Name="bh1160" ColumnName="bh1160" />
+          <ScalarProperty Name="bh180" ColumnName="bh180" />
+          <ScalarProperty Name="bh140" ColumnName="bh140" />
+          <ScalarProperty Name="bh120" ColumnName="bh120" />
+          <ScalarProperty Name="ah1640" ColumnName="ah1640" />
+          <ScalarProperty Name="ah1320" ColumnName="ah1320" />
+          <ScalarProperty Name="ah1160" ColumnName="ah1160" />
+          <ScalarProperty Name="ah180" ColumnName="ah180" />
+          <ScalarProperty Name="ah140" ColumnName="ah140" />
+          <ScalarProperty Name="ah120" ColumnName="ah120" />
+          <ScalarProperty Name="th1640" ColumnName="th1640" />
+          <ScalarProperty Name="th1320" ColumnName="th1320" />
+          <ScalarProperty Name="th1160" ColumnName="th1160" />
+          <ScalarProperty Name="th180" ColumnName="th180" />
+          <ScalarProperty Name="th140" ColumnName="th140" />
+          <ScalarProperty Name="th120" ColumnName="th120" />
+          <ScalarProperty Name="to1640" ColumnName="to1640" />
+          <ScalarProperty Name="to1320" ColumnName="to1320" />
+          <ScalarProperty Name="to1160" ColumnName="to1160" />
+          <ScalarProperty Name="to180" ColumnName="to180" />
+          <ScalarProperty Name="to140" ColumnName="to140" />
+          <ScalarProperty Name="to120" ColumnName="to120" />
+          <ScalarProperty Name="pregnancy_test" ColumnName="pregnancy_test" />
+          <ScalarProperty Name="blod_group_rh" ColumnName="blod_group_rh" />
+          <ScalarProperty Name="igg" ColumnName="igg" />
+          <ScalarProperty Name="igm" ColumnName="igm" />
+          <ScalarProperty Name="ns_i" ColumnName="ns_i" />
+          <ScalarProperty Name="dengue" ColumnName="dengue" />
+          <ScalarProperty Name="hcv" ColumnName="hcv" />
+          <ScalarProperty Name="hiv" ColumnName="hiv" />
+          <ScalarProperty Name="toxoplasma_igm" ColumnName="toxoplasma_igm" />
+          <ScalarProperty Name="vdrltest" ColumnName="vdrltest" />
+          <ScalarProperty Name="rafactor" ColumnName="rafactor" />
+          <ScalarProperty Name="HBs_Ag" ColumnName="HBs_Ag" />
+          <ScalarProperty Name="platelet" ColumnName="platelet" />
+          <ScalarProperty Name="abs_eosinophil" ColumnName="abs_eosinophil" />
+          <ScalarProperty Name="ct" ColumnName="ct" />
+          <ScalarProperty Name="bt" ColumnName="bt" />
+          <ScalarProperty Name="esr" ColumnName="esr" />
+          <ScalarProperty Name="mp" ColumnName="mp" />
+          <ScalarProperty Name="basophil" ColumnName="basophil" />
+          <ScalarProperty Name="monocyte" ColumnName="monocyte" />
+          <ScalarProperty Name="eosinophil" ColumnName="eosinophil" />
+          <ScalarProperty Name="lymphocyte" ColumnName="lymphocyte" />
+          <ScalarProperty Name="polymorph" ColumnName="polymorph" />
+          <ScalarProperty Name="ref_by" ColumnName="ref_by" />
+          <ScalarProperty Name="tlc" ColumnName="tlc" />
+          <ScalarProperty Name="hb" ColumnName="hb" />
+          <ScalarProperty Name="refferby" ColumnName="refferby" />
+          <ScalarProperty Name="rpt_date" ColumnName="rpt_date" />
+          <ScalarProperty Name="sex" ColumnName="sex" />
+          <ScalarProperty Name="age" ColumnName="age" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

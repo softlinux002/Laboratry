@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="punjablabModelStoreContainer" CdmEntityContainer="punjablabEntities1">
+    <EntitySetMapping Name="reports">
+      <EntityTypeMapping TypeName="punjablabModel.report">
+        <MappingFragment StoreEntitySet="report">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="age" ColumnName="age" />
+          <ScalarProperty Name="sex" ColumnName="sex" />
+          <ScalarProperty Name="rpt_date" ColumnName="rpt_date" />
+          <ScalarProperty Name="refferby" ColumnName="refferby" />
+          <ScalarProperty Name="hb" ColumnName="hb" />
+          <ScalarProperty Name="tlc" ColumnName="tlc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

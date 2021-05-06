@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlServerCe.4.0" ProviderManifestToken="4.0" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="report">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="age" Type="nvarchar" MaxLength="8" Nullable="false" />
+    <Property Name="sex" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="rpt_date" Type="datetime" Nullable="false" />
+    <Property Name="refferby" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="hb" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="tlc" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="ref_by" Type="nvarchar" MaxLength="100" />
+    <Property Name="polymorph" Type="nvarchar" MaxLength="100" />
+    <Property Name="lymphocyte" Type="nvarchar" MaxLength="100" />
+    <Property Name="eosinophil" Type="nvarchar" MaxLength="100" />
+    <Property Name="monocyte" Type="nvarchar" MaxLength="100" />
+    <Property Name="basophil" Type="nvarchar" MaxLength="100" />
+    <Property Name="mp" Type="nvarchar" MaxLength="100" />
+    <Property Name="esr" Type="nvarchar" MaxLength="100" />
+    <Property Name="bt" Type="nvarchar" MaxLength="100" />
+    <Property Name="ct" Type="nvarchar" MaxLength="100" />
+    <Property Name="abs_eosinophil" Type="nvarchar" MaxLength="100" />
+    <Property Name="platelet" Type="nvarchar" MaxLength="100" />
+    <Property Name="HBs_Ag" Type="nvarchar" MaxLength="100" />
+    <Property Name="rafactor" Type="nvarchar" MaxLength="100" />
+    <Property Name="vdrltest" Type="nvarchar" MaxLength="100" />
+    <Property Name="toxoplasma_igm" Type="nvarchar" MaxLength="100" />
+    <Property Name="hiv" Type="nvarchar" MaxLength="100" />
+    <Property Name="hcv" Type="nvarchar" MaxLength="100" />
+    <Property Name="dengue" Type="nvarchar" MaxLength="100" />
+    <Property Name="ns_i" Type="nvarchar" MaxLength="100" />
+    <Property Name="igm" Type="nvarchar" MaxLength="100" />
+    <Property Name="igg" Type="nvarchar" MaxLength="100" />
+    <Property Name="blod_group_rh" Type="nvarchar" MaxLength="100" />
+    <Property Name="pregnancy_test" Type="nvarchar" MaxLength="100" />
+    <Property Name="to120" Type="nvarchar" MaxLength="100" />
+    <Property Name="to140" Type="nvarchar" MaxLength="100" />
+    <Property Name="to180" Type="nvarchar" MaxLength="100" />
+    <Property Name="to1160" Type="nvarchar" MaxLength="100" />
+    <Property Name="to1320" Type="nvarchar" MaxLength="100" />
+    <Property Name="to1640" Type="nvarchar" MaxLength="100" />
+    <Property Name="th120" Type="nvarchar" MaxLength="100" />
+    <Property Name="th140" Type="nvarchar" MaxLength="100" />
+    <Property Name="th180" Type="nvarchar" MaxLength="100" />
+    <Property Name="th1160" Type="nvarchar" MaxLength="100" />
+    <Property Name="th1320" Type="nvarchar" MaxLength="100" />
+    <Property Name="th1640" Type="nvarchar" MaxLength="100" />
+    <Property Name="ah120" Type="nvarchar" MaxLength="100" />
+    <Property Name="ah140" Type="nvarchar" MaxLength="100" />
+    <Property Name="ah180" Type="nvarchar" MaxLength="100" />
+    <Property Name="ah1160" Type="nvarchar" MaxLength="100" />
+    <Property Name="ah1320" Type="nvarchar" MaxLength="100" />
+    <Property Name="ah1640" Type="nvarchar" MaxLength="100" />
+    <Property Name="bh120" Type="nvarchar" MaxLength="100" />
+    <Property Name="bh140" Type="nvarchar" MaxLength="100" />
+    <Property Name="bh180" Type="nvarchar" MaxLength="100" />
+    <Property Name="bh1160" Type="nvarchar" MaxLength="100" />
+    <Property Name="bh1320" Type="nvarchar" MaxLength="100" />
+    <Property Name="bh1840" Type="nvarchar" MaxLength="100" />
+    <Property Name="BloodSugarFasting" Type="nvarchar" MaxLength="100" />
+    <Property Name="BloodSugarR" Type="nvarchar" MaxLength="100" />
+    <Property Name="BloodSugarPP" Type="nvarchar" MaxLength="100" />
+    <Property Name="BloodUrea" Type="nvarchar" MaxLength="100" />
+    <Property Name="SerumCreatinine" Type="nvarchar" MaxLength="100" />
+    <Property Name="UricAcid" Type="nvarchar" MaxLength="100" />
+    <Property Name="BloodCholesterol" Type="nvarchar" MaxLength="100" />
+    <Property Name="HDLCholesterol" Type="nvarchar" MaxLength="100" />
+    <Property Name="Triglycerides" Type="nvarchar" MaxLength="100" />
+    <Property Name="L.D.L" Type="nvarchar" MaxLength="100" />
+    <Property Name="V.L.D.L" Type="nvarchar" MaxLength="100" />
+    <Property Name="SerumBilirubin" Type="nvarchar" MaxLength="100" />
+    <Property Name="Direct" Type="nvarchar" MaxLength="100" />
+    <Property Name="InDirect" Type="nvarchar" MaxLength="100" />
+    <Property Name="SGPT" Type="nvarchar" MaxLength="100" />
+    <Property Name="SGOT" Type="nvarchar" MaxLength="100" />
+    <Property Name="SerumAlkalinePhosphatase" Type="nvarchar" MaxLength="100" />
+    <Property Name="Protein" Type="nvarchar" MaxLength="100" />
+    <Property Name="Albumins" Type="nvarchar" MaxLength="100" />
+    <Property Name="Globulin" Type="nvarchar" MaxLength="100" />
+    <Property Name="BileSalt" Type="nvarchar" MaxLength="100" />
+    <Property Name="BilePigment" Type="nvarchar" MaxLength="100" />
+    <Property Name="UrineSugar" Type="nvarchar" MaxLength="100" />
+    <Property Name="Albumin" Type="nvarchar" MaxLength="100" />
+    <Property Name="PusCells" Type="nvarchar" MaxLength="100" />
+    <Property Name="R.B.C" Type="nvarchar" MaxLength="100" />
+    <Property Name="UricAcids" Type="nvarchar" MaxLength="100" />
+    <Property Name="EpithelialCell" Type="nvarchar" MaxLength="100" />
+    <Property Name="Oxalate" Type="nvarchar" MaxLength="100" />
+    <Property Name="Volume" Type="nvarchar" MaxLength="100" />
+    <Property Name="Colour" Type="nvarchar" MaxLength="100" />
+    <Property Name="Viscosity" Type="nvarchar" MaxLength="100" />
+    <Property Name="SpermCount" Type="nvarchar" MaxLength="100" />
+    <Property Name="ActiveSperms" Type="nvarchar" MaxLength="100" />
+    <Property Name="SluggishSperms" Type="nvarchar" MaxLength="100" />
+    <Property Name="Dead" Type="nvarchar" MaxLength="100" />
+    <Property Name="PusCell" Type="nvarchar" MaxLength="100" />
+    <Property Name="AnyOther" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="report" EntityType="Self.report" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

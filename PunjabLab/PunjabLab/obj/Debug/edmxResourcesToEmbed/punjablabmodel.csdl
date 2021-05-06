@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="punjablabModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="punjablabEntities2" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="reports" EntityType="punjablabModel.report" />
+  </EntityContainer>
+  <EntityType Name="report">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="age" Type="String" Nullable="false" MaxLength="8" FixedLength="false" Unicode="true" />
+    <Property Name="sex" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="rpt_date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="refferby" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="hb" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="tlc" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ref_by" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="polymorph" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="lymphocyte" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="eosinophil" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="monocyte" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="basophil" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="mp" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="esr" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="bt" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ct" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="abs_eosinophil" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="platelet" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="HBs_Ag" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="rafactor" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="vdrltest" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="toxoplasma_igm" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="hiv" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="hcv" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="dengue" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ns_i" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="igm" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="igg" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="blod_group_rh" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="pregnancy_test" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="to120" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="to140" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="to180" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="to1160" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="to1320" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="to1640" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="th120" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="th140" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="th180" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="th1160" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="th1320" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="th1640" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ah120" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ah140" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ah180" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ah1160" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ah1320" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ah1640" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="bh120" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="bh140" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="bh180" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="bh1160" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="bh1320" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="bh1840" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="BloodSugarFasting" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="BloodSugarR" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="BloodSugarPP" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="BloodUrea" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SerumCreatinine" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="UricAcid" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="BloodCholesterol" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="HDLCholesterol" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Triglycerides" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="L_D_L" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="V_L_D_L" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SerumBilirubin" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Direct" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="InDirect" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SGPT" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SGOT" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SerumAlkalinePhosphatase" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Protein" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Albumins" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Globulin" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="BileSalt" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="BilePigment" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="UrineSugar" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Albumin" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PusCells" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="R_B_C" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="UricAcids" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="EpithelialCell" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Oxalate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Volume" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Colour" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Viscosity" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SpermCount" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ActiveSperms" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SluggishSperms" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Dead" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PusCell" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="AnyOther" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>
